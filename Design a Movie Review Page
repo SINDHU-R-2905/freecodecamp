@@ -1,0 +1,45 @@
+Design a Movie Review Page:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Review</title>
+  </head>
+
+  <body>
+    <main>
+      <!-- Movie Title -->
+      <h1>Rise Beyond</h1>
+
+      <!-- Movie Cover -->
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png"
+        alt="Movie poster for Rise Beyond showing a futuristic city and a hero standing in the foreground"
+      />
+
+      <!-- Movie Description -->
+      <p>
+        Rise Beyond is a sci-fi adventure that follows a young hero who must
+        overcome impossible odds to save humanity’s future.
+      </p>
+
+      <!-- Movie Rating -->
+      <p>
+        <strong>Movie Rating:</strong>
+        <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>
+        (9.0/10)
+      </p>
+
+      <!-- Cast Section -->
+      <h2>Cast Members</h2>
+
+      <ul>
+        <li><strong>James Holloway</strong> as Ethan Carter</li>
+        <li><strong>Sarah Mitchell</strong> as Dr. Lena Brooks</li>
+        <li><strong>Daniel Cruz</strong> as Commander Reyes</li>
+      </ul>
+    </main>
+  </body>
+</html>
