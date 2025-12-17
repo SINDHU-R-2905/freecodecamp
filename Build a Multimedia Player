@@ -1,0 +1,48 @@
+Build a Multimedia Player:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Media Player</title>
+  </head>
+
+  <body>
+    <!-- Main title -->
+    <h1>My Media Playlist</h1>
+
+    <!-- Section 1: Audio -->
+    <section>
+      <h2>Relaxing Background Music</h2>
+
+      <audio controls aria-label="Relaxing background music audio">
+        <source src="audio.mp3" type="audio/mpeg" />
+      </audio>
+    </section>
+
+    <!-- Section 2: Video -->
+    <section>
+      <h2>Nature Documentary Clip</h2>
+
+      <video controls width="600">
+        <source src="video.mp4" type="video/mp4" />
+        <track
+          src="subtitles.vtt"
+          kind="subtitles"
+          srclang="en"
+          label="English"
+        />
+      </video>
+    </section>
+
+    <!-- Section 3: Transcript -->
+    <section>
+      <h2>Transcript</h2>
+
+      <p>
+        This video showcases beautiful landscapes, including forests, mountains,
+        and rivers, while calming narration explains the importance of nature.
+      </p>
+    </section>
+  </body>
+</html>
