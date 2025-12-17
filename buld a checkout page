@@ -1,0 +1,72 @@
+Build a checkout page:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+  </head>
+
+  <body>
+    <!-- 1 & 2: Single h1 -->
+    <h1>Checkout</h1>
+
+    <!-- 3: First section -->
+    <section>
+      <!-- 4 -->
+      <h2>Your Cart</h2>
+
+      <!-- 5: Image with alt text -->
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+        alt="Product cube image"
+      />
+    </section>
+
+    <!-- 3: Second section -->
+    <section>
+      <!-- 6 -->
+      <h2>Payment Information</h2>
+
+      <!-- 7 -->
+      <form>
+        <!-- Card Name -->
+        <label for="card-name">
+          Card Name
+          <!-- 14 & 15 -->
+          <span aria-hidden="true">*</span>
+        </label>
+        <!-- 8 & 9 -->
+        <input
+          type="text"
+          id="card-name"
+          name="card-name"
+          required
+        />
+
+        <!-- Card Number -->
+        <label for="card-number">
+          Card Number
+          <!-- 14 & 15 -->
+          <span aria-hidden="true">*</span>
+        </label>
+        <!-- 10, 11 & 18 -->
+        <input
+          type="text"
+          id="card-number"
+          name="card-number"
+          aria-describedby="card-number-help"
+          required
+        />
+
+        <!-- 16 & 17 -->
+        <p id="card-number-help">
+          Enter the 16-digit number on the front of your card.
+        </p>
+
+        <!-- Submit -->
+        <input type="submit" value="Pay Now" />
+      </form>
+    </section>
+  </body>
+</html>
